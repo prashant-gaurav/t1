@@ -1,0 +1,58 @@
+.main{
+    width: 100vw;
+}
+/*--- influence ---*/
+influence {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+influence img {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    image-rendering: high-quality;
+}
+
+influence .text {
+    display: flex;
+    flex: 1;
+    z-index: 2;
+    flex-direction: column;
+    padding: 20vh 0 0 8vw;
+
+}
+
+influence .text h1 {
+    font-size: 3em;
+    color: #3b3b3b;
+    font-family: Nunito-Regular;
+}
+
+influence .text p {
+    font-size: 1.2em;
+    color: gray;
+    font-family: Nunito-Light;
+    margin-bottom: 10vh;
+}
+
+
+/*influence .text .btn-primary {*/
+/*    padding: 10px 30px;*/
+/*    max-width: 160px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border: none;*/
+/*    color: white;*/
+/*    border-radius: 100px;*/
+/*    font-size: 1.5em;*/
+/*    font-family: "Nunito-Regular";*/
+/*    background: rgb(66, 93, 172);*/
+/*    background: linear-gradient(90deg, rgb(75, 108, 208) 0%, rgb(95, 129, 236) 53%, rgb(133, 163, 255) 100%);*/
+/*}*/
+
+/*--- influence ends ---*/
